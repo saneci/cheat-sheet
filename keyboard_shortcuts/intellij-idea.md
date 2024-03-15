@@ -12,7 +12,9 @@
 `Ctrl+Space` - show Lookup menu with matching suggestions  
 `Ctrl+Shift+I` - quickly review definition or content of the symbol at caret, without the need to open it in a new editor tab  
 `Ctrl+H` - open class hierarchy  
-`Ctrl+F12` - show class structure
+`Ctrl+F12` - show class structure  
+`Alt+F1` - open the Project tool window and switch focus to it
+
 
 ### Navigate
 
@@ -28,7 +30,8 @@
 `Ctrl+Shift+Enter` - complete a current statement such as if, do-while, try-catch, return (or a method call) into a syntactically correct construct (e.g. add curly braces)  
 `Alt+Insert` - generate (constructor, getter, setter, etc.)  
 `Ctrl+Alt+T` - surround with...  
-
+`Ctrl+Alt+V` - create variable based on specified class (for example, start typing `new ClassName()` and then press `Ctrl+Alt+V`)  
+`Ctrl+j` - postfix code completion is applied from right to left to avoid backward caret jumps when coding (type a dot `.` after the code fragment that you want to change and select the desired option)
 
 ### Refactor
 
@@ -46,3 +49,4 @@
 `Ctrl+Shift+F` - hide the `Replace with` field and switch to regular search  
 `Ctrl+Shift+N` - open any file in a project
 `Alt+F7` - find usage  
+`Ctrl+Alt+Shift+Insert` - scratch files are temporary files that let you experiment and prototype in the editor, without creating any project files  
