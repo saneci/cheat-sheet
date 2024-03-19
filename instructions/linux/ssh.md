@@ -1,3 +1,9 @@
+## Table of content
+
+1. [Generating keypair](#generating-keypair)
+2. [Adding your SSH key to the ssh-agent](#adding-your-ssh-key-to-the-ssh-agent)
+3. [Connect to the server](#connect-to-the-server)
+
 ### Generating keypair
 
 1. Open Git Bash
@@ -24,3 +30,10 @@ Before adding a new SSH key to the ssh-agent to manage your keys, you should hav
 
 
 For more information please see the [full documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+
+### Connect to the server
+
+1. Inter `ssh` command in the terminal
+   ```sh
+   ssh root@{server_ip_address}
+   ```
