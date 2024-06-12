@@ -35,5 +35,5 @@ For more information please see the [full documentation](https://docs.github.com
 
 1. Inter `ssh` command in the terminal
    ```sh
-   ssh root@{server_ip_address}
+   ssh {user}@{server_ip_address}
    ```
