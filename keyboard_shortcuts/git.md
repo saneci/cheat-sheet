@@ -80,6 +80,7 @@ the HEAD~1 means the one commit before head
 - `git tag v1.0.0` - create lightweight tag\
 - `git tag -d v1.0.0` - delete tag if it not already pushed
 - `git push origin --delete v1.0.0` - delete tag from remote server
+- `git push origin tag <tag_name>` - push tag to a remote server
 
 
 ### Resolve problems
