@@ -13,15 +13,21 @@ and Linux administration.
 
 | Folder | Description                                             |
 |--------|---------------------------------------------------------|
+| help   | Git commands and IntelliJ IDEA tips                     |
 | docker | Docker, Docker Compose and Docker Registry commands     |
 | github | GitHub Actions local testing with Act                   |
 | gradle | Gradle commands                                         |
-| help   | Git commands and IntelliJ IDEA tips                     |
 | linux  | Bash, SSH and Linux user management                     |
 | maven  | Maven commands                                          |
 | serve  | Application deployment and PostgreSQL server management |
 
 ## Documentation
+
+### Help
+
+1. [Git commonly used commands](help/git-shortcuts.md)
+2. [IntelliJ IDEA commonly used shortcuts](help/intellij-idea-shortcuts.md)
+3. [IntelliJ IDEA cheat sheet](help/intellij-idea.md)
 
 ### Docker
 
@@ -36,12 +42,6 @@ and Linux administration.
 ### Gradle
 
 1. [Gradle commonly used commands](gradle/gradle.md)
-
-### Help
-
-1. [Git commonly used commands](help/git-shortcuts.md)
-2. [IntelliJ IDEA commonly used shortcuts](help/intellij-idea-shortcuts.md)
-3. [IntelliJ IDEA cheat sheet](help/intellij-idea.md)
 
 ### Linux
 
