@@ -30,6 +30,8 @@
 ## Managing remote repositories
 
 - `git remote add origin {repository_url}` - set a new remote
+- `git remote set-url origin {repository_url}` - update the remote URL, for example after the repository was renamed
+  or moved, or to switch from `https` to `ssh`
 - `git remote -v` - verify new remote
 - `git branch --set-upstream-to origin/{branch_name}`
 
