@@ -1,17 +1,18 @@
+# User management
+
 ## Table of content
 
 1. [Add user](#add-user)
 2. [Disable root access](#disable-root-access)
 3. [Other commands for managing users](#other-commands-for-managing-users)
 
+## Add user
 
-### Add user
-
-1. Add user 
+1. Add user
     ```sh
     adduser {username}
     ```
-2. Add user to `sudo` group 
+2. Add user to `sudo` group
     ```sh
     usermod -aG sudo {username}
     ```
@@ -32,8 +33,7 @@
     ssh {username}@{server_ip_address}
     ```
 
-
-### Disable root access
+## Disable root access
 
 1. Open file `/etc/ssh/sshd_config`
     ```sh
@@ -46,8 +46,7 @@
     sudo service ssh restart
     ```
 
-
-### Other commands for managing users
+## Other commands for managing users
 
 1. If you need to add a user to another group, it must first be created
     ```sh
@@ -67,7 +66,7 @@
     ```
 5. To change the user's home directory, use the command
     ```sh
-    usermod -d path/to/new/directory {username}
+    usermod -d {path_to_new_directory} {username}
     ```
 6. You can get information about the user with the command
     ```sh
