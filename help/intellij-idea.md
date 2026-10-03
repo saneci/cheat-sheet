@@ -2,7 +2,14 @@
 
 ## Table of content
 
-1. [Bypass plugin installation blocking](#bypass-plugin-installation-blocking)
+1. [Automatic Javadoc rendering](#automatic-javadoc-rendering)
+2. [Bypass plugin installation blocking](#bypass-plugin-installation-blocking)
+
+## Automatic Javadoc rendering
+
+1. Open **Settings | Editor | General | Appearance**
+2. Enable the **Render Documentation Comments** checkbox
+3. Now the documentation comments in the code are automatically rendered
 
 ## Bypass plugin installation blocking
 
